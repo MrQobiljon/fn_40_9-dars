@@ -83,6 +83,55 @@
 
 # -------------------------------------------------
 
+# programming_languages = [
+#     1, "Python",
+#     2, "C",
+#     3, "C++",
+#     4, "C#",
+#     5, "Go",
+#     6, "Rust",
+#     7, "Php",
+#     8, "JavaScript"
+# ]
+#
+#
+# def check_int(number):
+#     return type(number) is int
+#
+#
+# def check_str(el):
+#     return type(el) is str
+#
+#
+# numbers = list(filter(check_int, programming_languages))
+# print(numbers)
+#
+# texts = list(filter(check_str, programming_languages))
+# print(texts)
+
+# ----------------------------------------------------------
+
+# programming_languages = [
+#     1, "Python",
+#     2, "C",
+#     3, "C++",
+#     4, "C#",
+#     5, "Go",
+#     6, "Rust",
+#     7, "Php",
+#     8, "JavaScript"
+# ]
+#
+# numbers = filter(lambda el: type(el) is int, programming_languages)
+# print(list(numbers))
+#
+# texts = filter(lambda el: type(el) is str, programming_languages)
+# print(list(texts))
+
+# ----------------------------------------------------------
+
+
+
 
 
 
